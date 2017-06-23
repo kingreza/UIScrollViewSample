@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q5G-0J-h6V">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" translatesAutoresizingMaskIntoConstraints="NO" id="Q5G-0J-h6V">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NVN-5U-WNZ">
@@ -187,6 +187,17 @@
                             <constraint firstAttribute="trailing" secondItem="Q5G-0J-h6V" secondAttribute="trailing" id="sXw-kA-Z9l"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="inputEight" destination="cQX-rM-bVg" id="APc-7K-Jm1"/>
+                        <outlet property="inputFive" destination="NiO-P6-7Mm" id="AHo-PA-kbz"/>
+                        <outlet property="inputFour" destination="05Y-aO-ldw" id="IZ8-er-VTd"/>
+                        <outlet property="inputOne" destination="xf9-v2-0CL" id="88G-mG-e1F"/>
+                        <outlet property="inputSeven" destination="dfs-28-GCt" id="GGI-YG-dnX"/>
+                        <outlet property="inputSix" destination="OqJ-RR-F6i" id="2ec-xJ-5oR"/>
+                        <outlet property="inputThree" destination="1d5-f7-GrX" id="bel-Lc-LfQ"/>
+                        <outlet property="inputTwo" destination="J8T-HL-OYf" id="ccs-CV-OYK"/>
+                        <outlet property="scrollView" destination="Q5G-0J-h6V" id="s1N-ij-dv1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
